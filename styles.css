@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    body{
+    min-height: 200vh;
+    background-color: white;
+    }
+    header.shopee-top div.container  {
+    background: linear-gradient(-180deg, #f53d2d, #f63);
+    color: red;
+    height: 180px;
+    position: sticky;
+    width: 100%;
+    gap: 100px;
+    top: 0;
+    
+    
+    }
+    header.shopee-top div.container nav a.nav-item{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    float:left ;
+    line-height: 10px;
+    position: sticky;
+    
+    
+    }
+    header.shopee-top div.container nav a.nav-items{
+    color: white;
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 10px;
+    position: sticky;
+    }
+    header.shopee-top div.container nav a:hover{
+    color: gray;
+    }
+    header.shopee-top div.container nav a.nav-items:hover{
+    color: gray;
+    }
+    header.shopee-top div.container nav div.sidebar{
+    display: flex;
+    margin: 0;
+    }
+    header.shopee-top div.container nav div.sidebar img.imgshopee{
+    height: 100px;
+    width: 240px;
+    padding: 30px;
+    }
+    header.shopee-top div.container nav div.sidebar form{
+    padding: -30px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    
+    }
+    header.shopee-top div.container nav div.sidebar form input.search-heres{
+    width: 3000px;
+    padding: 20px 10px;
+    height: 36px;
+    }
+    div.cart{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    font-size: 30px;
+    
+    }
+    div.undersearch{
+    color: white;
+    text-align: center;
+    gap: 32px ;
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+
+    }
+    div.clear{
+    clear: both;
+    } 
+    .box1 {grid-area: menu;}
+    .box2 {grid-area: main;}
+    .box3 {grid-area: footer;}
+    .button {grid-area: button;}
+
+    .container1 {
+    display: grid;
+    grid-template-areas: 
+    'menu main main'
+    'menu footer footer';
+    justify-content: center;
+    margin-top: 30px;
+    }
+    .box1 {
+    height: 250px;
+    width: 700px;
+    margin-right: 4.7px;
+    }
+    img.foto1 {
+        height: 250px;
+        width: 700px;
+    }
+
+
+    img.foto2 {
+        height: 123px;
+    }
